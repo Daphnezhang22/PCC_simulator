@@ -5,26 +5,10 @@ from mpl_toolkits.mplot3d import Axes3D
 from vpython import *
 from alterable_grow import *
 
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Tropism/Tropism 5Hz/Tropism0356.xls', header=None )
-#dp_lines_exp_1   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Tropism/Tropism 5Hz/Tropism0245.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Circumnutation/1Hz/piby2/piby2_1.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Circumnutation/1Hz/2piby3/2piby3_1.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Circumnutation/1Hz/piby4/piby4_1.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Spiral/1Hz/piby2/piby2_1.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Spiral/1Hz/piby4/piby4_1.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Elongation/Elongation02bar_1Hz.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Spiral/1Hz/piby2/piby2_1.xls', header=None )
 
-dp_lines_exp_14 =     pd.read_excel('D:/Santanna/3D Grow/Trial_5/Spiral/Spiral_7_8_ok_del.xlsx', header=None ,engine='openpyxl')
+dp_lines_exp_14 =     pd.read_excel('D:/Spiral/Spiral_7_8_ok_del.xlsx', header=None ,engine='openpyxl')
 
-
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Elongation/Elongation02bar_1Hz.xls', header=None )
-#dp_lines_exp_14   = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Tropism/Tropism 5Hz/Tropism014.xls', header=None )
-
-#dp_lines_simu = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Tropism/Tropism 5Hz/lines_test_full_lines.xls', header=None )
-#dp_lines_simu = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Tropism/Tropism 5Hz/lines_test_full_lines_all_corr_m1l_14.xls', header=None )
-#dp_lines_simu = pd.read_excel('D:/Santanna/3D Grow/Trial 4/Circumnutation/1Hz/piby4/sim_piby4_1.xls', header=None )
-dp_lines_simu = pd.read_excel('D:/Santanna/3D Grow/Trial_5/Spiral/Spiral_7_8_sim_change12_45_smallerDia.xls', header=None )
+dp_lines_simu = pd.read_excel('D:/Spiral/Spiral_7_8_sim_change12_45_smallerDia.xls', header=None )
 
 
 #process raw data
