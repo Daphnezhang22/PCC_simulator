@@ -1031,19 +1031,9 @@ def calculation_spring_vector(P0, P1, P2, P0_len, P1_len, P2_len, P_P_len):
         list.append(grow_dir.hat * P1_len)
         list.append(grow_dir.hat * P2_len)
         return list
-
-    theta = np.arccos((L2 / 2) / P_P_len)  # attention: theta<pi/2
-    if round(abs(L2 - L1), 6) == 0:
-        alpha = pi / 2
-    elif L1 < L2:
-        alpha = np.arccos(np.abs(L2 - L1) / 2 / P_P_len)
-    else:
-        alpha = np.arcsin(np.abs(L2 - L1) / 2 / P_P_len) + pi / 2
-    # print('theta = {}, alpha = {}'.format(np.rad2deg(theta), np.rad2deg(alpha)) )
-
-    # set equation to find P3
-    # (P3 - P2).(P0 - P2) = L2.D.COS(theta)
-    # (P3 - P2).(P1 - P2) = L2.D.COS(alpha)
+##################################################################################################
+####################confidential part preparing paper later will be published #################### 
+##################################################################################################
     # then translation P1 to (0,0,0) for calculation
     P0_trans = P0 - P2
     P1_trans = P1 - P2
